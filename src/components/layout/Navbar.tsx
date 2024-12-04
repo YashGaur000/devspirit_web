@@ -47,6 +47,12 @@ export function Navbar() {
               Pricing
             </Link>
             <Link 
+              to="/blog" 
+              className={`${isActive('/blog') ? 'text-blue-600' : 'text-gray-600'} hover:text-blue-600`}
+            >
+              Blog
+            </Link>
+            <Link 
               to="/company" 
               className={`${isActive('/company') ? 'text-blue-600' : 'text-gray-600'} hover:text-blue-600`}
             >
@@ -91,6 +97,12 @@ export function Navbar() {
               className={`block px-3 py-2 ${isActive('/pricing') ? 'text-blue-600' : 'text-gray-600'} hover:text-blue-600`}
             >
               Pricing
+            </Link>
+            <Link 
+              to="/blog" 
+              className={`block px-3 py-2 ${isActive('/blog') ? 'text-blue-600' : 'text-gray-600'} hover:text-blue-600`}
+            >
+              Blog
             </Link>
             <Link 
               to="/company" 

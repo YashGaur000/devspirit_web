@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone } from 'lucide-react';
 
 export function Contact() {
   const handleSubmit = (e: React.FormEvent) => {
@@ -80,7 +80,7 @@ export function Contact() {
             <div className="flex items-start space-x-4">
               <Phone className="h-6 w-6 text-blue-600 mt-1" />
               <div>
-                <h3 className="text-lg font-medium text-gray-900">Phone number</h3>
+                <h3 className="text-lg font-medium text-gray-900">Phone</h3>
                 <p className="mt-1 text-gray-600">+91-9354992219</p>
               </div>
             </div>
