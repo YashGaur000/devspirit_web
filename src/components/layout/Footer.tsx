@@ -10,7 +10,7 @@ export function Footer() {
           <div>
             <Link to="/" className="flex items-center">
               <Code className="h-8 w-8 text-blue-400" />
-              <span className="ml-2 text-xl font-bold">TechPro Solutions</span>
+              <span className="ml-2 text-xl font-bold">DevSpirit Technologies</span>
             </Link>
             <p className="mt-4 text-gray-400">
               Empowering businesses through innovative technology solutions.
@@ -46,7 +46,7 @@ export function Footer() {
               <a href="#" className="text-gray-400 hover:text-white">
                 <Twitter className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white">
+              <a href="https://www.linkedin.com/in/devspirit-technologies-430ab933b/" className="text-gray-400 hover:text-white">
                 <Linkedin className="h-6 w-6" />
               </a>
               <a href="#" className="text-gray-400 hover:text-white">
@@ -57,7 +57,7 @@ export function Footer() {
         </div>
         
         <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} TechPro Solutions. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} DevSpirit Technologies. All rights reserved.</p>
         </div>
       </div>
     </footer>

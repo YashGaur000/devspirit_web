@@ -18,8 +18,7 @@ export function CompanyContact() {
               <Mail className="h-6 w-6 text-blue-600" />
               <h3 className="text-xl font-semibold text-gray-900">Email Us</h3>
             </div>
-            <p className="text-gray-600">contact@techprosolutions.com</p>
-            <p className="text-gray-600">support@techprosolutions.com</p>
+            <p className="text-gray-600">info.devspirit@gmail.com</p>
           </div>
 
           <div className="bg-white p-8 rounded-lg shadow-sm">
@@ -27,11 +26,10 @@ export function CompanyContact() {
               <Phone className="h-6 w-6 text-blue-600" />
               <h3 className="text-xl font-semibold text-gray-900">Call Us</h3>
             </div>
-            <p className="text-gray-600">Main: +1 (555) 123-4567</p>
-            <p className="text-gray-600">Support: +1 (555) 987-6543</p>
+            <p className="text-gray-600">Support: +91 9354992219</p>
           </div>
 
-          <div className="bg-white p-8 rounded-lg shadow-sm">
+          {/* <div className="bg-white p-8 rounded-lg shadow-sm">
             <div className="flex items-center space-x-4 mb-4">
               <MapPin className="h-6 w-6 text-blue-600" />
               <h3 className="text-xl font-semibold text-gray-900">Visit Us</h3>
@@ -41,10 +39,10 @@ export function CompanyContact() {
               Silicon Valley, CA 94025<br />
               United States
             </p>
-          </div>
+          </div> */}
         </div>
 
-        <div className="mt-12">
+        {/* <div className="mt-12">
           <iframe
             title="Office Location"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.6661457280714!2d-122.08374688447637!3d37.422408879825695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fba02425dad8f%3A0x6c296c66619367e0!2sGoogleplex!5e0!3m2!1sen!2sus!4v1623252034980!5m2!1sen!2sus"
@@ -55,7 +53,7 @@ export function CompanyContact() {
             loading="lazy"
             className="rounded-lg shadow-lg"
           ></iframe>
-        </div>
+        </div> */}
       </div>
     </div>
   );
