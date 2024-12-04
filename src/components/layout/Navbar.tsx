@@ -17,7 +17,7 @@ export function Navbar() {
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <Code className="h-8 w-8 text-blue-600" />
-              <span className="ml-2 text-xl font-bold text-gray-800">TechPro Solutions</span>
+              <span className="ml-2 text-xl font-bold text-gray-800">DevSpirit Technologies</span>
             </Link>
           </div>
           
@@ -34,9 +34,24 @@ export function Navbar() {
             >
               Solutions
             </Link>
-            <a href="/#services" className="text-gray-600 hover:text-blue-600">Services</a>
-            <a href="/#about" className="text-gray-600 hover:text-blue-600">About</a>
-            <a href="/#case-studies" className="text-gray-600 hover:text-blue-600">Case Studies</a>
+            <Link 
+              to="/customers" 
+              className={`${isActive('/customers') ? 'text-blue-600' : 'text-gray-600'} hover:text-blue-600`}
+            >
+              Customers
+            </Link>
+            <Link 
+              to="/pricing" 
+              className={`${isActive('/pricing') ? 'text-blue-600' : 'text-gray-600'} hover:text-blue-600`}
+            >
+              Pricing
+            </Link>
+            <Link 
+              to="/company" 
+              className={`${isActive('/company') ? 'text-blue-600' : 'text-gray-600'} hover:text-blue-600`}
+            >
+              Company
+            </Link>
             <button className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">
               Contact Us
             </button>
@@ -65,9 +80,24 @@ export function Navbar() {
             >
               Solutions
             </Link>
-            <a href="/#services" className="block px-3 py-2 text-gray-600 hover:text-blue-600">Services</a>
-            <a href="/#about" className="block px-3 py-2 text-gray-600 hover:text-blue-600">About</a>
-            <a href="/#case-studies" className="block px-3 py-2 text-gray-600 hover:text-blue-600">Case Studies</a>
+            <Link 
+              to="/customers" 
+              className={`block px-3 py-2 ${isActive('/customers') ? 'text-blue-600' : 'text-gray-600'} hover:text-blue-600`}
+            >
+              Customers
+            </Link>
+            <Link 
+              to="/pricing" 
+              className={`block px-3 py-2 ${isActive('/pricing') ? 'text-blue-600' : 'text-gray-600'} hover:text-blue-600`}
+            >
+              Pricing
+            </Link>
+            <Link 
+              to="/company" 
+              className={`block px-3 py-2 ${isActive('/company') ? 'text-blue-600' : 'text-gray-600'} hover:text-blue-600`}
+            >
+              Company
+            </Link>
             <button className="w-full text-left px-3 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">
               Contact Us
             </button>
